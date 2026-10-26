@@ -1,14 +1,10 @@
-// Paste your Web App configuration from Firebase Console > Project settings.
-// This is client-side Firebase configuration, NOT a service-account secret.
-// Firestore security is enforced through the provided firestore.rules file.
 export const firebaseConfig = {
-  apiKey: "AIzaSyA1TubY23bDE5FoW5l9T72eQe4XJ_yCboA",
-  authDomain: "thismatters-3f5e5.firebaseapp.com",
-  projectId: "thismatters-3f5e5",
-  storageBucket: "thismatters-3f5e5.firebasestorage.app",
-  messagingSenderId: "157428559652",
-  appId: "1:157428559652:web:040fc3ad5e978d211bcdb1",
-  measurementId: "G-H6PDNLS156",
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.firebasestorage.app",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
 };
 
 export const firebaseConfigured =
